@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form id="login-form">
+        <input required maxlength="15" type="text" placeholder="What is your name?" />
+        <input type="submit" value="Log In" />
+    </form>
+    <h2 id="clock">00:00:00</h2>
+    <h1 id="greeting"></h1>
+    <div id="todo-section">
+    <form id="todo-form">
+        <input type="text" placeholder="Write a To do and Press Enter!" required/>
+    </form>
+    <ul id="todo-list"></ul>
+    </div>
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="memo-section">
+      <h1>Memo</h1>
+      <textarea id="memo" placeholder="Write your memo here..."></textarea>
+      <button id="save-memo">Save Memo</button>
+      <p id="memo-status"></p>
+      <ul id="memo-list"></ul>
+    </div>
+    <div id="timer-section">
+      <h1>Timer</h1>
+      <input type="number" id="timer-minutes" placeholder="Minutes" />
+      <button id="start-timer">Start Timer</button>
+      <button id="stop-timer">Stop Timer</button> 
+      <button id="reset-timer">Reset Timer</button> 
+      <h2 id="timer-display">00:00:00</h2> 
+    </div>
+
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/memo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+  </html>
